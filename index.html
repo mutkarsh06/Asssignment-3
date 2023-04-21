@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form Assignment 3</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+</head>
+<body>
+    <h1 class="start" align="center"><i><b><u>SURVEY FORM</u></b></i></h1>
+    <br>
+    <form id="review" method="post" action="https://enw7u145b8im9.x.pipedream.net/" class="frm">
+        <label class="name"><u><b>Name</u>:</b></label>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="first_name">First Name:</label>
+        <input type="text" name="first_name" id="fname" placeholder="Enter Your First Name" required>
+        &nbsp;
+        <label for="last_name">Last Name:</label>
+        <input type="text" name="last_name" id="lname" placeholder="Enter Your Last Name" required>
+        <br>
+        <br>
+        <label class="address"><u><b>Address</u>:</b></label>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="street_address">Street:</label>
+        <input type="text" name="street_address" id="street" placeholder="Street Name" required>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <label for="city">City:</label>
+        <input type="text" name="city" id="city" placeholder="City" required>
+        <br>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="state">State:</label>
+        <input type="text" name="state" id="State" placeholder="State" required>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+        <label for="pincode">Pincode:</label>
+        <input type="number" name="pincode" id="pincode" placeholder="Pincode" required>
+        <br>
+        <br>
+        <label for="contact_number"><b><u>Contact Number</u>:</b></label>&nbsp;
+        <input type="number" id="contactnumber" name="contact_number" placeholder="Contact Number" required>
+        <br>
+        <br>
+        <label class="rating"><u><b>Rating</u>:</b></label>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="quality_of_products_received_rating">Quality Of Products Received:</label>
+        &nbsp;&nbsp;
+        <input type="radio" id="rating" name="quality_of_products_received_rating" required>
+        <label for="rating">
+            <font color="green">Excellent</font>
+        </label>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="rating" name="quality_of_products_received_rating">
+        <label for="rating">
+            <font color="yellow">Good</font>
+        </label>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="rating" name="quality_of_products_received_rating">
+        <label for="rating">
+            <font color="red">Bad</font>
+        </label>
+        <br>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="value_for_money_rating">Value For Money:</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="value" name="value_for_money_rating" required>
+        <label for="value">
+            <font color="green">Excellent</font>
+        </label>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="value" name="value_for_money_rating">
+        <label for="value">
+            <font color="yellow">Good</font>
+        </label>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="value" name="value_for_money_rating">
+        <label for="value">
+            <font color="red">Bad</font>
+        </label>
+        <br>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="delivery_rating">Delivery:</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="delivery" name="delivery_rating" required>
+        <label for="delivery">
+            <font color="green">Excellent</font>
+        </label>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="delivery" name="delivery_rating">
+        <label for="delivery">
+            <font color="yellow">Good</font>
+        </label>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="delivery" name="delivery_rating">
+        <label for="delivery">
+            <font color="red">Bad</font>
+        </label>
+
+        <br>
+        <br>
+        <div id="button">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button>
+                <input type="submit" class="buttons" value="Submit Now" align="center">
+            </button>
+            &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+            <button>
+                <input type="reset" class="buttons" value="Reset Now" align="center">
+            </button>
+        </div>
+    </form>
+</body>
+
+</html>
